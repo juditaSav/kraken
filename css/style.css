@@ -1,0 +1,18 @@
+ .ramecek {
+    border: 1px solid black !important;
+}
+
+ .menu {
+    list-style-type: none;
+    background-color: black;
+    padding: 6px;
+
+}
+h1 {
+    margin: 12px 0 12px 0;
+    text-align: left;
+    font-family: Centarell-Bold;
+}
+.container {
+    margin: 5px 0 5px 0;
+}
