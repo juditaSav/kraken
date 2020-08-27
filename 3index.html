@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
     <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -13,48 +13,91 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Domů</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Aktuality <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Livestream</a>
+            </li>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Platba <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Hledat</button>
+          </form>
+        </div>
+      </nav>
+  <div class="white-background">
     <div class="container">
-        <h1>Platba</h1>
-    <form>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputEmail4">Jméno</label>
-            <input type="email" class="form-control" id="inputEmail4">
-          </div>
-          <div class="form-group col-md-6">
-            <label for="inputPassword4">Příjmení</label>
-            <input type="Příjmení" class="form-control" id="inputPassword4">
-          </div>
+      <h1>Platba</h1>
+  <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Jméno</label>
+          <input type="email" class="form-control" id="inputEmail4">
         </div>
-        <div class="form-group">
-          <label for="inputAddress">E-mail</label>
-          <input type="text" class="form-control" id="inputAddress">
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Příjmení</label>
+          <input type="Příjmení" class="form-control" id="inputPassword4">
         </div>
-        <div class="form-group">
-          <label for="inputAddress2">číslo kreditní / debetní karty</label>
-          <input type="text" class="form-control" id="inputAddress2">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">E-mail</label>
+        <input type="text" class="form-control" id="inputAddress">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">číslo kreditní / debetní karty</label>
+        <input type="text" class="form-control" id="inputAddress2">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">měsíc ukončení platnosti</label>
+          <input type="text" class="form-control" id="inputCity">
         </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputCity">měsíc ukončení platnosti</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputZip">rok ukončení platnosti</label>
-            <input type="text" class="form-control" id="inputZip">
-            </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="inputZip">CVC</label>
-            <input type="text" class="form-control" id="inputZip">
-          </div>
+        <div class="form-group col-md-4">
+          <label for="inputZip">rok ukončení platnosti</label>
+          <input type="text" class="form-control" id="inputZip">
+          </select>
         </div>
-        <div class="form-group">
-          <div class="form-check">
-          </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">CVC</label>
+          <input type="text" class="form-control" id="inputZip">
         </div>
-        <button type="submit" class="btn btn-primary">Zaplatit</button>
-      </form>
-    </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Zaplatit</button>
+    </form>
+    <div class="links">
+      <a href="http://twitter.com" target="_blank"><img src="https://mccambridges.com/wp-content/uploads/2016/05/twitter-logo-png-transparent-background-1024x1024.png"></a>
+     <a href="http://facebook.com" target="_blank"><img src="https://www.freepnglogos.com/uploads/facebook-icons/facebook-icon-transparent-background-3.png"></a>
+     <a href="http://instagram.com" target="_blank"><img src="https://i.pinimg.com/originals/a2/5f/4f/a25f4f58938bbe61357ebca42d23866f.png"></a>
+    <p>Tel.: + 420 731 345 001</p>
+   </div>
+  </div>
+   
+        <!-- <img class="pes" src="https://tipyjakfotit.cz/wp-content/uploads/2013/02/shutterstock_2310943541.jpg">  -->
+
+</div>
+ </div>
 </body>
 </html>
