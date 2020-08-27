@@ -1,3 +1,3 @@
 function search() {
-    window.location.replace('kraken/index.html');
+    window.location.replace('index.html');
 }
